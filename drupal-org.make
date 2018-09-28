@@ -54,7 +54,7 @@ projects[opigno_course_categories_app][version]            = 1.2
 
 projects[tft][type]        = module
 projects[tft][subdir]      = "opigno"
-projects[tft][version]     = 1.0
+projects[tft][version]     = 1.1
 
 projects[opigno_statistics_app][type]               = module
 projects[opigno_statistics_app][subdir]             = "opigno"
