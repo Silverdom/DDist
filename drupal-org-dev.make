@@ -143,6 +143,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_laq-0score_239475
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/2018-09-28/quiz-php7_timezone_warnings-3003123-2-D74.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
