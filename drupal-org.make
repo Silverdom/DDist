@@ -98,6 +98,7 @@ projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_pe
 projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
 projects[quiz][patch][2895276] = "http://drupal.org/files/issues/quiz_ajax_questions_browser-2895276-2.patch"
 projects[quiz][patch][3003123] = "http://drupal.org/files/issues/2018-10-04/quiz-php7_timezone_warnings-3003123-4-D74.patch"
+projects[quiz][patch][2915509] = "http://drupal.org/files/issues/2018-10-04/php-matching-php71-2915509-12-d74.patch"
 
 ; OG
 projects[og][version]        = 2.9
