@@ -4,16 +4,9 @@ core = 7.59
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][version]            = 1.19
-
 projects[opigno][type]               = module
-projects[opigno][subdir]             = "contrib"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = "7.x-1.x"
-projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 6b5bae002021b3ecf2e6b89ebc1883529e7854ac
+projects[opigno][subdir]             = "opigno"
+projects[opigno][version]            = 1.20
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -47,17 +40,9 @@ projects[opigno_class_app][type]               = module
 projects[opigno_class_app][subdir]             = "opigno"
 projects[opigno_class_app][version]            = 1.6
 
-;projects[opigno_quiz_app][type]               = module
-;projects[opigno_quiz_app][subdir]             = "opigno"
-;projects[opigno_quiz_app][version]            = 1.17
-// maybe to update
-
 projects[opigno_quiz_app][type]               = module
-projects[opigno_quiz_app][subdir]             = "contrib"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
-projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = 0ff81c09eb245162117de41c0b510436f07fe225
+projects[opigno_quiz_app][subdir]             = "opigno"
+projects[opigno_quiz_app][version]            = 1.18
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -73,19 +58,11 @@ projects[tft][version]     = 1.1
 
 projects[opigno_statistics_app][type]               = module
 projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][version]            = 1.4
-
-;projects[opigno_moxtra_app][type]               = module
-;projects[opigno_moxtra_app][subdir]             = "opigno"
-;projects[opigno_moxtra_app][version]            = 1.4
-// to update
+projects[opigno_statistics_app][version]            = 1.5
 
 projects[opigno_moxtra_app][type]               = module
-projects[opigno_moxtra_app][subdir]             = "contrib"
-projects[opigno_moxtra_app][download][type]     = git
-projects[opigno_moxtra_app][download][branch]   = "7.x-1.x"
-projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/project/opigno_moxtra_app.git"
-projects[opigno_moxtra_app][download][revision] = 1fa3ea650c41d0433d3e0a59080b494772b13f10
+projects[opigno_moxtra_app][subdir]             = "opigno"
+projects[opigno_moxtra_app][version]            = 1.5
 
 projects[opigno_tincan_api][type]     = module
 projects[opigno_tincan_api][subdir]   = "opigno"
@@ -102,7 +79,7 @@ projects[og_quiz][version]            = 1.5
 ; Opigno themes ================================================================
 
 projects[platon][type]               = theme
-projects[platon][version]            = 3.19
+projects[platon][version]            = 3.20
 
 ; Third-party modules that need to be patched ==================================
 
