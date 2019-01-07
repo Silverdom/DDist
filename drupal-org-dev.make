@@ -225,9 +225,6 @@ projects[ctools][version] = 1.9
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.11
 
-projects[views_php][subdir] = "contrib"
-projects[views_php][version] = 1.0-alpha1
-
 projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha9
 
