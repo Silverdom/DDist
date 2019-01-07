@@ -1,11 +1,12 @@
 api = 2
 core = 7.61
 
-;projects[opigno_lms][type]               = profile
-;projects[opigno_lms][download][type]     = git
-;projects[opigno_lms][download][branch]   = "7.x-1.x"
-;projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno_lms.git"
-;projects[opigno_lms][download][revision] = 75489f36893805fd6c31e3bfe48ec2bde43253b4
+projects[drupal][version] = 7.61
+projects[opigno_lms][type]               = profile
+projects[opigno_lms][download][type]     = git
+projects[opigno_lms][download][branch]   = "7.x-1.x"
+projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno_lms.git"
+projects[opigno_lms][download][revision] = 75489f36893805fd6c31e3bfe48ec2bde43253b4
 
 ; For building a precise release.
-projects[opigno_lms][version] = 1.34
+;projects[opigno_lms][version] = 1.34
