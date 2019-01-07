@@ -3,9 +3,16 @@ core = 7.61
 
 ; Opigno modules ===============================================================
 
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][version]            = 1.20
+
 projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
-projects[opigno][version]            = 1.20
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = "7.x-1.x"
+projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
+projects[opigno][download][revision] = f1b8d26993fbb17df5a30523aefd76a3cf079563
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
