@@ -187,7 +187,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.14
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.18
+projects[views][version] = 3.20
 
 projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
