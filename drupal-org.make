@@ -238,6 +238,7 @@ projects[variable][version] = 2.5
 
 projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
+projects[rules_conditional][patch][3024279] = "http://drupal.org/files/issues/2018-04-08/php7.2_incompatibility-2959426-4.patch"
 
 projects[features][subdir]  = "contrib"
 projects[features][version] = 2.10
