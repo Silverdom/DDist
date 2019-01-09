@@ -83,8 +83,28 @@ projects[platon][version]            = 3.20
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-projects[quiz][version]        = 4.0-rc9
-projects[quiz][subdir]         = "contrib"
+;projects[quiz][version]        = 4.0-rc9
+;projects[quiz][subdir]         = "contrib"
+;projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
+;projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
+,projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+;projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-13.patch"
+;projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
+;projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
+;projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
+;projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
+;projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
+;projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
+;projects[quiz][patch][2895276] = "http://drupal.org/files/issues/quiz_ajax_questions_browser-2895276-2.patch"
+;projects[quiz][patch][3003123] = "http://drupal.org/files/issues/2018-10-04/quiz-php7_timezone_warnings-3003123-4-D74.patch"
+;projects[quiz][patch][2915509] = "http://drupal.org/files/issues/2018-10-04/php-matching-php71-2915509-12-d74.patch"
+
+projects[quiz][type]               = module
+projects[quiz][subdir]             = "contrib"
+projects[quiz][download][type]     = git
+projects[quiz][download][branch]   = "7.x-4.x"
+projects[quiz][download][url]      = "http://git.drupal.org/project/quiz.git"
+projects[quiz][download][revision] = 4e3a3a751b6fce82548a8c03cea987454e2b84e0
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
@@ -120,7 +140,7 @@ projects[og_forum_D7][patch][2206711] = "http://drupal.org/files/issues/og_forum
 
 ; Rules
 projects[rules][subdir]         = "contrib"
-projects[rules][version]        = 2.10
+projects[rules][version]        = 2.11
 projects[rules][patch][1966426] = "http://drupal.org/files/system.rules_.inc_.patch"
 
 ; Apps
