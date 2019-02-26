@@ -178,7 +178,7 @@ projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
 projects[h5p][version] = 1.39
-projects[h5p][patch][3024279] = "http://drupal.org/files/issues/2019-01-07/opigno_h5p_title_metatag-3024279-2.patch"
+projects[h5p][patch][3024279] = "http://drupal.org/files/issues/2019-02-26/opigno_h5p_title_metatag-3024279-4.patch"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
