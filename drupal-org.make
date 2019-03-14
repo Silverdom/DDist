@@ -227,7 +227,7 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.4
+projects[wysiwyg][version] = 2.5
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc9
@@ -295,7 +295,7 @@ projects[homebox][version] = 2.0
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.1/ckeditor_4.6.1_full.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.9.2/ckeditor_4.9.2_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
