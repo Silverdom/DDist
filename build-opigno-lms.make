@@ -1,5 +1,5 @@
 api = 2
-core = 7.63
+core = 7.64
 
 projects[opigno_lms][type]               = profile
 projects[opigno_lms][download][type]     = git
@@ -8,4 +8,4 @@ projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno
 projects[opigno_lms][download][revision] = e2d959b7b97a83f6a9496bbd13bc2171ff683acd
 
 ; For building a precise release.
-;projects[opigno_lms][version] = 1.35
+;projects[opigno_lms][version] = 1.36
