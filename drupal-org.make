@@ -83,7 +83,7 @@ projects[platon][version]            = 3.20
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-projects[quiz][version]        = 4.0-rc10
+projects[quiz][version]        = 4.0-rc11
 projects[quiz][subdir]         = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
@@ -187,7 +187,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.14
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.20
+projects[views][version] = 3.21
 
 projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
