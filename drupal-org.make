@@ -193,7 +193,7 @@ projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
 
 projects[module_filter][subdir]  = "contrib"
-projects[module_filter][version] = 2.1
+projects[module_filter][version] = 2.2
 
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.9
