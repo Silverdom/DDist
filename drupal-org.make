@@ -1,5 +1,5 @@
 api = 2
-core = 7.66
+core = 7.67
 
 ; Opigno modules ===============================================================
 
@@ -191,6 +191,7 @@ projects[views][version] = 3.21
 
 projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
+projects[defaultconfig][patch][1900574] = "http://drupal.org/files/issues/1900574.defaultconfig.undefinedindex_20.patch"
 
 projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 2.2
@@ -221,7 +222,7 @@ projects[rules_conditional][version] = 1.0-beta2
 projects[rules_conditional][patch][3024279] = "http://drupal.org/files/issues/2018-04-08/php7.2_incompatibility-2959426-4.patch"
 
 projects[features][subdir]  = "contrib"
-projects[features][version] = 2.10
+projects[features][version] = 2.11
 
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
