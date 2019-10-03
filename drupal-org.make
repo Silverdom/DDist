@@ -162,7 +162,7 @@ projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
 
 projects[l10n_update][subdir]  = "contrib"
-projects[l10n_update][version] = 2.2
+projects[l10n_update][version] = 2.3
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.10
