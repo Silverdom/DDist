@@ -24,7 +24,6 @@ projects[opigno_messaging_app][subdir]             = "opigno"
 projects[opigno_messaging_app][version]            = 1.1
 
 projects[opigno_notifications_app][type]               = module
-projects[opigno_notifications_app][type]               = module
 projects[opigno_notifications_app][subdir]             = "opigno"
 projects[opigno_notifications_app][version]            = 1.0
 
