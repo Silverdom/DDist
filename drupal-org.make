@@ -24,6 +24,7 @@ projects[opigno_messaging_app][subdir]             = "opigno"
 projects[opigno_messaging_app][version]            = 1.1
 
 projects[opigno_notifications_app][type]               = module
+projects[opigno_notifications_app][type]               = module
 projects[opigno_notifications_app][subdir]             = "opigno"
 projects[opigno_notifications_app][version]            = 1.0
 
@@ -228,7 +229,8 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.5
+projects[wysiwyg][version] = 2.6
+projects[wysiwyg][patch][3024279] = "http://drupal.org/files/issues/2020-03-17/3094882-5.patch"
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc9
@@ -296,7 +298,7 @@ projects[homebox][version] = 2.0
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.9.2/ckeditor_4.9.2_full.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.14.0/ckeditor_4.14.0_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
