@@ -5,7 +5,7 @@ core = 7.70
 
 projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
-projects[opigno][version]            = 1.21
+projects[opigno][version]            = 1.22
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"

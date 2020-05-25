@@ -5,7 +5,7 @@ core = 7.70
 
 projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
-projects[opigno][version]            = 1.21
+projects[opigno][version]            = 1.22
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -162,7 +162,7 @@ projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
 
 projects[l10n_update][subdir]  = "contrib"
-projects[l10n_update][version] = 2.2
+projects[l10n_update][version] = 2.3
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.10
@@ -228,7 +228,8 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.5
+projects[wysiwyg][version] = 2.6
+projects[wysiwyg][patch][3024279] = "http://drupal.org/files/issues/2020-03-17/3094882-5.patch"
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc9
@@ -296,7 +297,7 @@ projects[homebox][version] = 2.0
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.9.2/ckeditor_4.9.2_full.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.14.0/ckeditor_4.14.0_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
