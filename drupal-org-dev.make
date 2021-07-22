@@ -1,5 +1,5 @@
 api = 2
-core = 7.78
+core = 7.82
 
 ; Opigno modules ===============================================================
 
@@ -310,3 +310,4 @@ libraries[PHPExcel][download][type] = "get"
 libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/1.8.1.tar.gz"
 libraries[PHPExcel][destination]    = "libraries"
 libraries[PHPExcel][directory_name] = "PHPExcel"
+
