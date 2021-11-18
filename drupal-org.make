@@ -177,7 +177,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.39
+projects[h5p][version] = 1.49
 projects[h5p][patch][3024279] = "http://drupal.org/files/issues/2019-02-26/opigno_h5p_title_metatag-3024279-4.patch"
 
 projects[admin_menu][subdir] = "contrib"
@@ -228,8 +228,8 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.6
-projects[wysiwyg][patch][3024279] = "http://drupal.org/files/issues/2020-03-17/3094882-5.patch"
+projects[wysiwyg][version] = 2.7
+projects[wysiwyg][patch][3024279] = "http://drupal.org/files/issues/2021-11-17/wysiwyg-update_to_ckeditor_4_17_0-3227897-15.patch"
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc9
@@ -297,7 +297,7 @@ projects[homebox][version] = 2.0
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.14.0/ckeditor_4.14.0_full.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.17.1/ckeditor_4.17.1_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
