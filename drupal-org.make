@@ -227,8 +227,7 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.7
-projects[wysiwyg][patch][3024279] = "http://drupal.org/files/issues/2021-11-17/wysiwyg-update_to_ckeditor_4_17_0-3227897-15.patch"
+projects[wysiwyg][version] = 2.9
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc9
