@@ -244,8 +244,8 @@ projects[field_group][version] = 1.6
 projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0
 
-projects[print][subdir]  = "contrib"
-projects[print][version] = 2.1
+;projects[print][subdir]  = "contrib"
+;projects[print][version] = 2.1
 
 projects[advanced_forum][subdir]  = "contrib"
 projects[advanced_forum][version] = 2.8
