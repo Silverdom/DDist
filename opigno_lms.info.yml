@@ -23,7 +23,6 @@ dependencies:
   - ctools
   - datetime
   - datetime_range
-  - dblog
   - dropzonejs
   - dynamic_page_cache
   - editor
