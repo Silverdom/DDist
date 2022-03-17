@@ -228,6 +228,7 @@ projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.9
+projects[wysiwyg][patch][3269940] = "http://drupal.org/files/issues/2022-03-16/wysiwyg-4_18_0_support-3269940-2.patch"
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc9
@@ -295,7 +296,7 @@ projects[homebox][version] = 2.0
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.17.1/ckeditor_4.17.1_full.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.18.0/ckeditor_4.18.0_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
@@ -308,5 +309,3 @@ libraries[PHPExcel][download][type] = "get"
 libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/1.8.1.tar.gz"
 libraries[PHPExcel][destination]    = "libraries"
 libraries[PHPExcel][directory_name] = "PHPExcel"
-
-
