@@ -177,7 +177,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.49
+projects[h5p][version] = 1.51
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
